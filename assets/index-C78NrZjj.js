@@ -16782,7 +16782,7 @@ function y2() {
             m.jsx(
               E.div,
               {
-                className: "absolute text-red-300 text-xl md:text-2xl",
+                className: "absolute text-pink-300 text-xl md:text-2xl",
                 style: { left: `${h}%`, top: "-10%" },
                 animate: {
                   y: ["0vh", "120vh"],
@@ -17612,92 +17612,6 @@ function M2() {
         }),
       ],
     }),
-  });
-}
-function D2({ onOpen: n }) {
-  const [r, s] = F.useState(!1),
-    a = () => {
-      r ||
-        (s(!0),
-        setTimeout(() => {
-          n();
-        }, 1200));
-    };
-  return m.jsxs("div", {
-    className:
-      "fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-br from-[#a8bfa2] via-[#c8d5b9] to-[#a8bfa2]",
-    children: [
-      m.jsx("div", {
-        className: "absolute top-8 left-8 text-6xl opacity-20",
-        children: "🌸",
-      }),
-      m.jsx("div", {
-        className: "absolute top-8 right-8 text-6xl opacity-20",
-        children: "🌸",
-      }),
-      m.jsx("div", {
-        className: "absolute bottom-8 left-8 text-6xl opacity-20",
-        children: "🌿",
-      }),
-      m.jsx("div", {
-        className: "absolute bottom-8 right-8 text-6xl opacity-20",
-        children: "🌿",
-      }),
-      m.jsx(E.div, {
-        initial: { scale: 0.8, opacity: 0 },
-        animate: { scale: r ? 1.2 : 1, opacity: 1 },
-        transition: { duration: 0.8 },
-        className: "relative",
-        children: m.jsxs("div", {
-          className:
-            "relative h-screen w-full flex items-center justify-center",
-          children: [
-            m.jsx(E.img, {
-              src: A2,
-              className: "md:h-full md:py-4 h-full rounded-2xl md:rounded-xl",
-              animate: r ? { scale: 1.05, rotateX: 10, opacity: 0 } : {},
-              transition: { duration: 0.8 },
-            }),
-            m.jsx(E.button, {
-              onClick: a,
-              className:
-                "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:w-54 md:h-54 w-74 h-74 mt-2 flex items-center justify-center",
-              whileHover: { scale: 1.1, rotate: 5 },
-              whileTap: { scale: 0.95 },
-              animate: r ? { scale: 0, opacity: 0 } : {},
-              transition: { duration: 0.8 },
-              children: m.jsx("img", {
-                src: V2,
-                alt: "Open",
-                className: "w-full h-full object-contain",
-              }),
-            }),
-            m.jsxs(E.div, {
-              initial: { opacity: 0, y: 20 },
-              animate: r ? { opacity: 0, y: 40 } : { opacity: 1, y: 0 },
-              transition: { duration: 0.6 },
-              className:
-                "absolute top-[65%] left-1/2 -translate-x-1/2 text-center px-4",
-              children: [
-                m.jsx("p", {
-                  className:
-                    "font-['Cormorant'] text-lg md:mt-1 md:text-lg text-[#3e3935]/80 mt-4 tracking-wide",
-                  children: "Tap to open your invitation",
-                }),
-              ],
-            }),
-            m.jsx("div", {
-              className:
-                "absolute top-4 left-4 right-4 h-1 bg-gradient-to-r from-transparent via-[#c8a882] to-transparent opacity-30",
-            }),
-            m.jsx("div", {
-              className:
-                "absolute bottom-4 left-4 right-4 h-1 bg-gradient-to-r from-transparent via-[#c8a882] to-transparent opacity-30",
-            }),
-          ],
-        }),
-      }),
-    ],
   });
 }
 const A2 = "/assets/envelope2-rrOoymnG.jpeg",
