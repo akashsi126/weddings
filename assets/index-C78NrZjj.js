@@ -16796,7 +16796,7 @@ function y2() {
                   delay: x,
                   ease: "easeInOut",
                 },
-                children: "🌸",
+                children: "🍁",
               },
               f,
             ),
