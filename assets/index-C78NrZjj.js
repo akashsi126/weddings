@@ -16782,7 +16782,7 @@ function y2() {
             m.jsx(
               E.div,
               {
-                className: "absolute text-pink-300 text-xl md:text-2xl",
+                className: "absolute text-red-300 text-xl md:text-2xl",
                 style: { left: `${h}%`, top: "-10%" },
                 animate: {
                   y: ["0vh", "120vh"],
