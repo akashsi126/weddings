@@ -16941,19 +16941,19 @@ function y2() {
                   m.jsx(E.h2, {
                     variants: d,
                     className:
-                      "text-2xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Allura']",
+                      "text-3xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Great_Vibes']",
                     children: "Tanmay",
                   }),
                   m.jsx(E.p, {
                     variants: d,
                     className:
-                      "text-[15px] md:text-3xl text-black font-['Cormorant']",
+                      "text-[12px] md:text-2xl text-black font-['Cormorant']",
                     children: "WITH",
                   }),
                   m.jsx(E.h2, {
                     variants: d,
                     className:
-                      "text-2xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Allura']",
+                      "text-3xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Great_Vibes']",
                     children: "Aditi",
                   }),
                 ],
