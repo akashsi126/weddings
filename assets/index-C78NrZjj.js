@@ -16942,6 +16942,7 @@ function y2() {
                     variants: d,
                     className:
                       "text-2xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Allura']",
+                     style={{ fontFamily: "Allura, cursive" }},
                     children: "Tanmay",
                   }),
                   m.jsx(E.p, {
@@ -16954,6 +16955,7 @@ function y2() {
                     variants: d,
                     className:
                       "text-2xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Allura']",
+                    style={{ fontFamily: "Allura, cursive" }},
                     children: "Aditi",
                   }),
                 ],
