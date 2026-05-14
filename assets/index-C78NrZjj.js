@@ -17522,7 +17522,7 @@ function x2() {
   j2 = "/assets/venue_bg-PWdit_Ul.png";
 function M2() {
   const n =
-    "A-12,Amaara Farms, Mandir Rd, Main Chhatarpur Rd, Bhatti Kalan, New Delhi, Delhi 110074";
+    "Gound Floor, Jacob Rd, near Bharat Petroleum, Civil Lines, Jaipur, Rajasthan 302006";
   return m.jsx("section", {
     className: "relative py-20 md:py-32 px-6 bg-cover bg-center",
     style: { backgroundImage: `url(${j2})` },
