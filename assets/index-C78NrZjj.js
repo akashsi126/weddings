@@ -16941,7 +16941,7 @@ function y2() {
                   m.jsx(E.h2, {
                     variants: d,
                     className:
-                      "text-3xl font-['Allura',_cursive] text-[#B3385A]",
+                      "font-allura text-3xl text-[#B3385A]",
                     children: "Tanmay",
                   }),
                   m.jsx(E.p, {
