@@ -17758,7 +17758,7 @@ function F2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-2 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
-                children: "Mehendi",
+                children: "Colour of Tradition",
               }),
               m.jsx(E.p, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -17766,7 +17766,7 @@ function F2() {
                 className: "font-semibold mb-3 text-base",
                 style: { fontFamily: "Cormorant", color: "#775A00" },
                 children:
-                  "A playful morning of mehendi and cultural festivities",
+                  "A colorful celebration of tradition and cultural joy",
               }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -17775,17 +17775,17 @@ function F2() {
                 children: [
                   m.jsx("p", {
                     className: "text-lg font-semibold",
-                    children: "WED",
+                    children: "Fri",
                   }),
                   m.jsxs("p", {
                     className: "text-lg font-semibold",
                     children: [
-                      "June",
+                      "July",
                       " ",
                       m.jsx("span", {
                         className:
                           "text-[#f97316] text-xl font-['Great Vibes']",
-                        children: "4",
+                        children: "3",
                       }),
                       " ",
                       "2026",
@@ -17793,11 +17793,11 @@ function F2() {
                   }),
                   m.jsx("p", {
                     className: "text-lg font-semibold",
-                    children: "03:30 PM onwards",
+                    children: "10:00 AM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-lg font-semibold mb-2",
-                    children: "Uttar Garden Lawn",
+                    children: "511-AB Janpath, Nirman Nagar, Jaipur",
                   }),
                 ],
               }),
@@ -18026,14 +18026,14 @@ function B2() {
                 transition: { duration: 0.8 },
                 className: "text-6xl mb-4 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
-                children: "Sangeet",
+                children: "Rhythm of Romance",
               }),
               m.jsx(E.p, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.2 },
                 className: "font-semibold mb-6 text-xl",
                 style: { fontFamily: "Cormorant", color: "white" },
-                children: "A playful night of sangeet and cultural festivities",
+                children: "A magical night of rhythm, romance, and joyful celebrations",
               }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18042,16 +18042,16 @@ function B2() {
                 children: [
                   m.jsx("p", {
                     className: "text-xl font-semibold",
-                    children: "WED",
+                    children: "FRI",
                   }),
                   m.jsxs("p", {
                     className: "text-xl font-semibold",
                     children: [
-                      "June",
+                      "JULY",
                       " ",
                       m.jsx("span", {
                         className: "text-white text-2xl font-['Great Vibes']",
-                        children: "4",
+                        children: "3",
                       }),
                       " ",
                       "2026",
@@ -18059,11 +18059,11 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-xl font-semibold",
-                    children: "07:30 PM onwards",
+                    children: "06:00 PM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-xl font-semibold mb-3",
-                    children: "Uttar Garden Lawn",
+                    children: "Jai Mahal Palace",
                   }),
                 ],
               }),
@@ -18323,7 +18323,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-2 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "Wedding",
+                children: "The Royal Affairs",
               }),
               m.jsx(E.p, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18331,7 +18331,7 @@ function K2() {
                 className: "text-base font-semibold mb-3",
                 style: { fontFamily: "Cormorant", color: "#775A00" },
                 children:
-                  "A playful morning of mehendi and cultural festivities",
+                  "A grand celebration of royal elegance and timeless traditions",
               }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18340,17 +18340,17 @@ function K2() {
                 children: [
                   m.jsx("p", {
                     className: "text-lg font-semibold",
-                    children: "FRI",
+                    children: "SAT",
                   }),
                   m.jsxs("p", {
                     className: "text-lg font-semibold",
                     children: [
-                      "June",
+                      "JULY",
                       " ",
                       m.jsx("span", {
                         className:
                           "text-[#B13401] text-2xl font-semibold font-['Great Vibes']",
-                        children: "5",
+                        children: "4",
                       }),
                       " ",
                       "2026",
@@ -18362,7 +18362,7 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Uttar Garden Lawn",
+                    children: "Jai Mahal Palace",
                   }),
                 ],
               }),
@@ -18483,7 +18483,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-4xl mb-2 pt-25 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "Wedding",
+                children: "The Royal Affairs",
               }),
               m.jsx(E.p, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18491,23 +18491,23 @@ function K2() {
                 className: "text-sm mb-3",
                 style: { fontFamily: "Cormorant", color: "#775A00" },
                 children:
-                  "A playful morning of mehendi and cultural festivities",
+                  "A grand celebration of royal elegance and timeless traditions.",
               }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
                 className: "space-y-0.5 text-[#775A00] font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-base", children: "FRI" }),
+                  m.jsx("p", { className: "text-base", children: "SAT" }),
                   m.jsxs("p", {
                     className: "text-base",
                     children: [
-                      "June",
+                      "JULY",
                       " ",
                       m.jsx("span", {
                         className:
                           "text-[#B13401] text-xl font-['Great Vibes']",
-                        children: "5",
+                        children: "4",
                       }),
                       " ",
                       "2026",
@@ -18515,11 +18515,11 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base",
-                    children: "01:00 PM onwards",
+                    children: "06:00 PM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Uttar Garden Lawn",
+                    children: "Jai Mahal Palace",
                   }),
                 ],
               }),
