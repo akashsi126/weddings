@@ -16940,7 +16940,7 @@ function y2() {
                 children: [
                   m.jsx(E.h2, {
                     variants: d,
-                    className: "text-5xl md:text-6xl mb-6 text-[#B79B40]",
+                    className: "text-3xl md:text-7xl text-[#B3385A] drop-shadow-lg",
                     style: { fontFamily: "Allura, cursive" },
                     children: "Tanmay",
                   }),
