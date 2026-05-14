@@ -17132,7 +17132,7 @@ function v2() {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
               transition: { duration: 0.8, ease: "easeOut" },
               className: "text-5xl md:text-6xl mb-6 text-[#B79B40] ",
-              style: { fontFamily: "Allura, cursive" }
+              style: { fontFamily: "Allura, cursive" },
               children: "Tanmay & Aditi",
             }),
             m.jsxs("div", {
