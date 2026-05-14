@@ -16927,7 +16927,7 @@ function y2() {
                 variants: d,
                 className:
                   "text-[13px] md:text-2xl text-black tracking-wide mb-1 font-['Cormorant']",
-                children: "Cordialy invite you to attend the",
+                children: "Cordially invite you to attend the",
               }),
               m.jsx(E.p, {
                 variants: d,
@@ -16962,7 +16962,7 @@ function y2() {
                 variants: d,
                 className:
                   " text-[13px] md:text-2xl text-black tracking-wide font-semibold font-['Cormorant']",
-                children: "Daughter of Mrs. Ajay & Mr. Ajay Solanki",
+                children: "Daughter of Dr. Ajay & Dr. Ajay Solanki",
               }),
               m.jsx(E.p, {
                 variants: d,
