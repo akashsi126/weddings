@@ -17282,11 +17282,11 @@ function x2() {
     r = [
       {
         side: "Groom's Family",
-        members: ["Mr. Pawn Agarwal", "Mrs. Samita Agarwal"],
+        members: ["Dr. Ritu Dhand", "Dr. Sunil Dhand"],
       },
       {
         side: "Bride's Family",
-        members: ["Shri Tarun Agarwal", "Smt. Shikha"],
+        members: ["Dr. Ajay Kushwaha", "Dr. Ajay Solanki"],
       },
     ],
     { scrollYProgress: s } = i2({
