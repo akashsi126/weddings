@@ -17570,7 +17570,7 @@ function M2() {
                 "relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white",
               children: [
                 m.jsx("iframe", {
-                  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.26321221717!2d77.19045737528172!3d28.441480875769557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ffe408ba181%3A0x3e7db9286fdc6d7e!2sAmaara%20Farms!5e0!3m2!1sen!2sin!4v1775711120008!5m2!1sen!2sin",
+                  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.0466770103103!2d75.785178!3d26.912171999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db40b6ed16f5f%3A0x902e85e7d6dc03fb!2sJai%20Mahal%20Palace%2C%20Jaipur!5e1!3m2!1sen!2sin!4v1778785615788!5m2!1sen!2sin",
                   width: "100%",
                   height: "450",
                   style: { border: 0 },
