@@ -16963,7 +16963,7 @@ function y2() {
                 variants: d,
                 className:
                   " text-[13px] md:text-2xl text-black tracking-wide font-semibold font-['Cormorant']",
-                children: "Daughter of Dr. Ajay & Dr. Ajay Solanki",
+                children: "D/o Dr.(Mrs) Ajay & Dr. Ajay Solanki",
               }),
               m.jsx(E.p, {
                 variants: d,
