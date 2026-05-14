@@ -16940,8 +16940,8 @@ function y2() {
                 children: [
                   m.jsx(E.h2, {
                     variants: d,
-                    className:
-                      "font-allura text-3xl text-[#B3385A]",
+                    className: "text-5xl md:text-6xl mb-6 text-[#B79B40]",
+                    style: { fontFamily: "Allura, cursive" },
                     children: "Tanmay",
                   }),
                   m.jsx(E.p, {
