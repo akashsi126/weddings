@@ -16940,7 +16940,7 @@ function y2() {
                 children: [
                   m.jsx(E.h2, {
                     variants: d,
-                    className: "text-3xl md:text-7xl text-[#B3385A] drop-shadow-lg",
+                    className: "text-4xl md:text-7xl text-[#B3385A] drop-shadow-lg",
                     style: { fontFamily: "Allura, cursive" },
                     children: "Tanmay",
                   }),
@@ -16953,7 +16953,8 @@ function y2() {
                   m.jsx(E.h2, {
                     variants: d,
                     className:
-                      "text-3xl md:text-7xl text-[#B3385A] drop-shadow-lg font-['Great_Vibes']",
+                      "text-4xl md:text-7xl text-[#B3385A] drop-shadow-lg",
+                    style: { fontFamily: "Allura, cursive" },
                     children: "Aditi",
                   }),
                 ],
