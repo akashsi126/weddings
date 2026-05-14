@@ -17873,7 +17873,7 @@ function F2() {
                 transition: { duration: 0.8 },
                 className: "text-4xl mb-2 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
-                children: "Mehendi",
+                children: "Colour of Tradition",
               }),
               m.jsx(E.p, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -17881,23 +17881,23 @@ function F2() {
                 className: "text-sm mb-3",
                 style: { fontFamily: "Cormorant", color: "#775A00" },
                 children:
-                  "A playful morning of mehendi and cultural festivities",
+                  "A colorful celebration of tradition and cultural joy.",
               }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
                 className: "space-y-0.5 text-[#775A00] font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-base", children: "WED" }),
+                  m.jsx("p", { className: "text-base", children: "FRI" }),
                   m.jsxs("p", {
                     className: "text-base",
                     children: [
-                      "June",
+                      "JULY",
                       " ",
                       m.jsx("span", {
                         className:
                           "text-[#f97316] text-xl font-['Great Vibes']",
-                        children: "4",
+                        children: "3",
                       }),
                       " ",
                       "2026",
@@ -17905,11 +17905,11 @@ function F2() {
                   }),
                   m.jsx("p", {
                     className: "text-base",
-                    children: "03:30 PM onwards",
+                    children: "10:00 AM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Uttar Garden Lawn",
+                    children: "511-AB, Janpath, Nirman Nagar, Jaipur",
                   }),
                 ],
               }),
@@ -18151,29 +18151,29 @@ function B2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-4 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
-                children: "Sangeet",
+                children: "Rhythm of Romance",
               }),
               m.jsx(E.p, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.2 },
                 className: "text-base mb-6",
                 style: { fontFamily: "Cormorant", color: "white" },
-                children: "A playful night of sangeet and cultural festivities",
+                children: "A magical night of rhythm, romance, and joyful celebrations",
               }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
                 className: "space-y-1 text-white font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-lg", children: "WED" }),
+                  m.jsx("p", { className: "text-lg", children: "FRI" }),
                   m.jsxs("p", {
                     className: "text-lg",
                     children: [
-                      "June",
+                      "JULY",
                       " ",
                       m.jsx("span", {
                         className: "text-white text-2xl font-['Great Vibes']",
-                        children: "4",
+                        children: "3",
                       }),
                       " ",
                       "2026",
@@ -18181,11 +18181,11 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-lg",
-                    children: "7:30 PM onwards",
+                    children: "06:00 PM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-lg mb-3",
-                    children: "Uttar Garden Lawn",
+                    children: "Jai Mahal Palace",
                   }),
                 ],
               }),
