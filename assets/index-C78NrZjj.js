@@ -17003,7 +17003,7 @@ function y2() {
                 transition: { duration: 4, repeat: 1 / 0 },
               }),
               m.jsx(E.img, {
-                src: h2,
+                src: h21,
                 className: "absolute bottom-16 left-[0%] w-20 md:w-32",
                 animate: { scale: [1, 1.05, 1] },
                 transition: { duration: 4, repeat: 1 / 0 },
@@ -17147,7 +17147,7 @@ function v2() {
                     animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
                     transition: { duration: 0.8, delay: 0.1 },
                     className:
-                      "text-3xl text-center font-semibold text-[#B79B40]  font-['Great Vibes']",
+                      "text-3xl text-center font-semibold text-[#B79B40]  font-['Cormorant']",
                     children: "04 July 2026",
                   }),
                 }),
@@ -17521,7 +17521,225 @@ function x2() {
   ],
   N2 = Dy("navigation", E2),
   j2 = "/assets/venue_bg-PWdit_Ul.png";
+const l12 = "/assets/address.png",
+  xp1 = "",
+  u21 = "",
+  c21 = "",
+  f21 = "",
+  d21 = "",
+  h21 = "",
+  p21 = "",
+  m21 = "",
+  wp1 = "";
 function M2() {
+  const { ref: n, isInView: r } = Pt(),
+    s = F.useMemo(
+      () =>
+        [...Array(30)].map((f, h) => {
+          // Fixed brackets here
+          const y = Math.random() * 100,
+            v = y + (Math.random() * 20 - 10),
+            g = y + (Math.random() * 30 - 15);
+          return {
+            id: h,
+            startX: y,
+            drift1: v,
+            drift2: g,
+            duration: 7 + Math.random() * 5,
+            delay: Math.random() * 5,
+          };
+        }),
+      [],
+    ),
+    a = F.useMemo(
+      () =>
+        [...Array(8)].map((f, h) => ({
+          // Fixed brackets here
+          id: h,
+          x: Math.random() * 100,
+          y: Math.random() * 100,
+        })),
+      [],
+    ),
+    u = { hidden: {}, visible: { transition: { staggerChildren: 0.2 } } },
+    d = {
+      hidden: { opacity: 0, y: 40 },
+      visible: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.6, ease: "easeOut" },
+      },
+    };
+  return m.jsxs("section", {
+    ref: n,
+    className:
+      "min-h-dvh relative overflow-hidden md:flex items-start justify-center md:pt-24",
+    style: {
+      backgroundImage: `url(${xp1})`,
+      backgroundSize: "cover",
+      backgroundPosition: " top center",
+      backgroundRepeat: "no-repeat",
+    },
+    children: [
+      m.jsx("div", {
+        className: "absolute inset-0 overflow-hidden pointer-events-none z-50",
+        children: s.map(
+          ({ id: f, startX: h, drift1: y, drift2: v, duration: g, delay: x }) =>
+            m.jsx(
+              E.div,
+              {
+                className: "absolute text-pink-300 text-xl md:text-2xl",
+                style: { left: `${h}%`, top: "-10%" },
+                animate: {
+                  y: ["0vh", "120vh"],
+                  x: ["0%", `${y - h}%`, `${v - h}%`, "0%"],
+                  rotate: [0, 120, 240, 360],
+                  opacity: [0, 1, 1, 0],
+                },
+                transition: {
+                  duration: g,
+                  repeat: 1 / 0,
+                  delay: x,
+                  ease: "easeInOut",
+                },
+                children: "",
+              },
+              f,
+            ),
+        ),
+      }),
+      m.jsxs(E.div, {
+        initial: "hidden",
+        whileInView: "visible",
+        viewport: { once: !0 },
+        variants: {
+          hidden: {},
+          visible: { transition: { staggerChildren: 0.2 } },
+        },
+        className: "hidden md:block absolute inset-0 w-full h-full",
+        children: [
+          m.jsx("div", {
+            className:
+              "absolute inset-0 w-full h-full bg-cover bg-bottom bg-no-repeat",
+            style: { backgroundImage: `url(${xp})` },
+          }),
+          m.jsx("div", {
+            className: "absolute inset-0 z-10 pointer-events-none",
+            children: a.map(({ id: f, x: h, y }) =>
+              m.jsx(
+                E.div,
+                {
+                  className: "absolute rounded-full bg-[#FEFCFA] blur-lg z-50",
+                  style: {
+                    left: `${h}%`,
+                    top: `${y}%`,
+                    width: "50px",
+                    height: "50px",
+                  },
+                  initial: { opacity: 0, scale: 0.5 },
+                  animate: { opacity: [0, 0.6, 0], scale: [0.5, 1.2, 0.8] },
+                  transition: {
+                    duration: 1.2,
+                    delay: f * 0.5,
+                    repeat: 1 / 0,
+                    repeatDelay: 2,
+                    ease: "easeInOut",
+                  },
+                },
+                f,
+              ),
+            ),
+          }),
+        ],
+      }),
+      m.jsxs("div", {
+        className:
+          "md:hidden mt-2 relative min-h-dvh bg-cover bg-center bg-no-repeat",
+        style: { backgroundImage: `url(${l12})`, paddingTop: "70px" },
+        children: [
+          m.jsx("p", {
+            className: "font-['Playfair_Display'] text-[#3e3935]",
+            style: {
+              fontSize: "30px" /* Reduced clean text size */,
+              textAlign: "center" /* Centers the letters */,
+              width: "100%",
+              margin: "0 auto 1.5rem auto",
+              display: "block",
+            },
+            children: "Where We Celebrate",
+          }),
+          m.jsxs("div", {
+            // Stripped out conflicting Tailwind width/rounded classes and forced them via standard inline styles
+            className:
+              "relative overflow-hidden shadow-2xl border-4 border-white mx-auto",
+            style: {
+              width: "50%" /* Exactly half the width */,
+              aspectRatio: "1 / 1" /* Forces a perfect square */,
+              borderRadius: "50%" /* Forces a perfect circle */,
+              maxHeight:
+                "25vh" /* Limits height to 1/4 of the viewport height */,
+              maxWidth:
+                "200px" /* Safety cap so it stays a neat, small circle */,
+            },
+            children: [
+              m.jsx("iframe", {
+                src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.0466770103103!2d75.785178!3d26.912171999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db40b6ed16f5f%3A0x902e85e7d6dc03fb!2sJai%20Mahal%20Palace%2C%20Jaipur!5e1!3m2!1sen!2sin!4v1778785615788!5m2!1sen!2sin",
+                width: "100%",
+                height: "100%",
+                style: { border: 0 },
+                allowFullScreen: !0,
+                loading: "lazy",
+                referrerPolicy: "no-referrer-when-downgrade",
+                className: "w-full h-full object-cover",
+              }),
+              m.jsx("div", {
+                className:
+                  "absolute inset-0 bg-gradient-to-br from-[#c8a882]/0 via-transparent to-[#a8bfa2]/0 group-hover:from-[#c8a882]/10 group-hover:to-[#a8bfa2]/10 transition-all duration-500 pointer-events-none",
+                style: { borderRadius: "50%" },
+              }),
+            ],
+          }),
+          m.jsx("div", {
+            className:
+              "absolute inset-0 bg-gradient-to-br from-[#c8a882]/20 to-[#a8bfa2]/20 rounded-3xl blur-2xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+          }),
+          m.jsx("p", {
+            className: "text-base mb-2",
+            style: {
+              fontSize: "25px" /* Reduced clean text size */,
+              textAlign: "center" /* Centers the letters */,
+              width: "100%",
+              margin: "20px auto 1.5rem auto",
+              display: "block",
+            },
+            children: "Jai Mahal palace, Jaipur",
+          }),
+          m.jsx(E.div, {
+            initial: { opacity: 0, y: 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: !0 },
+            transition: { delay: 0.4, duration: 0.8 },
+            className: "text-center mt-8",
+            children: m.jsxs(E.a, {
+              href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n)}`,
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className:
+                "inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#c8a882] to-[#b8986a] text-white rounded-full font-['Cormorant'] text-lg shadow-lg",
+              whileHover: {
+                scale: 1.05,
+                boxShadow: "0 10px 30px rgba(200, 168, 130, 0.3)",
+              },
+              whileTap: { scale: 0.95 },
+              children: [m.jsx(N2, { className: "w-5 h-5" }), "Get Directions"],
+            }),
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function M3() {
   const n =
     "Gound Floor, Jacob Rd, near Bharat Petroleum, Civil Lines, Jaipur, Rajasthan 302006";
   return m.jsx("section", {
@@ -17536,6 +17754,15 @@ function M2() {
           viewport: { once: !0 },
           transition: { duration: 0.8 },
           className: "text-center mb-12",
+          // Added inline styles to the parent block to force internal alignment
+          style: {
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            textAlign: "center",
+          },
           children: [
             m.jsx("div", {
               className: "inline-block mb-4",
@@ -17547,9 +17774,15 @@ function M2() {
                 }),
               }),
             }),
-            m.jsx("h2", {
-              className:
-                "font-['Playfair_Display'] text-4xl md:text-5xl text-[#3e3935] mb-6",
+            m.jsx("p", {
+              className: "font-['Playfair_Display'] text-[#3e3935]",
+              style: {
+                fontSize: "20px" /* Reduced clean text size */,
+                textAlign: "center" /* Centers the letters */,
+                width: "100%",
+                margin: "0 auto 1.5rem auto",
+                display: "block",
+              },
               children: "Where We Celebrate",
             }),
             m.jsx("p", {
@@ -17710,15 +17943,15 @@ function D2({ onOpen: n }) {
   });
 }
 
-const X2 = "/assets/bg-m-reception-Dp3MVAIB.PNG",
-  Y2 = "/assets/bg-d-reception-CuFEkLsT.png",
-  Ap = "/assets/table-CDbT3-87.png",
-  Vp = "/assets/candle_reception-DoF6jSyw.png",
-  Dp = "/assets/Reception_art-DQFoXdOA.png",
-  hi = "/assets/candle3-aEAzCA-P.png",
-  mo = "/assets/candles-BH1XfZPw.png",
-  Q2 = "/assets/reception_1-BrtS6lZB.png",
-  Z2 = "/assets/reception_2-CQtBBHuM.png";
+const X2 = "/assets/sufi_night.PNG",
+  Y2 = "",
+  Ap = "",
+  Vp = "",
+  Dp = "",
+  hi = "",
+  mo = "",
+  Q2 = "",
+  Z2 = "";
 function q2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -17835,12 +18068,13 @@ function q2() {
             },
           }),
           m.jsxs("div", {
-            className: "text-center max-w-xs pt-[200px] lg:pt-20",
+            className: "text-center max-w-xs absolute top-1/4",
+            style: { transform: "translateY(60px)" },
             children: [
               m.jsx(E.h2, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-32 ",
+                className: "text-4xl mb-2",
                 style: { fontFamily: "Great Vibes", color: "white" },
                 children: "Shaam-e-Sufiyana",
               }),
@@ -17985,13 +18219,20 @@ function q2() {
             },
           }),
           m.jsxs("div", {
-            className: "text-center max-w-xs pt-24",
+            // Replaced breaking 'pt-50' layout with manual absolute rendering
+            className: "text-center max-w-xs absolute top-[18%]",
+            style: { transform: "translateY(60px)" },
             children: [
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-5 ",
-                style: { fontFamily: "Great Vibes", color: "white" },
+                // Stripped internal 'pt-30' utility class to unlock full custom position control
+                className: "text-4xl mb-2",
+                style: {
+                  fontFamily: "Great Vibes",
+                  color: "white",
+                  marginTop: "150px",
+                },
                 children: "Shaam-e-Sufiyana",
               }),
               m.jsx(E.p, {
@@ -18006,11 +18247,11 @@ function q2() {
                 transition: { delay: 0.3 },
                 className: "space-y-0.5 text-[white] font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-base", children: "WED" }),
+                  m.jsx("p", { className: "text-base", children: "" }),
                   m.jsxs("p", {
                     className: "text-base",
                     children: [
-                      "JULY",
+                      "WED, JULY",
                       " ",
                       m.jsx("span", {
                         className: "text-[white] text-xl font-['Great Vibes']",
@@ -18026,21 +18267,10 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Uttar Garden Lawn",
+                    children: "Diggi Palace, Jaipur",
                   }),
                 ],
               }),
-              // m.jsx("p", {
-              //   className: "text-base text-[white] font-['Cormorant']",
-              //   children: "Dress code",
-              // }),
-              // m.jsx(E.p, {
-              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-              //   transition: { delay: 0.4 },
-              //   className: "text-xs px-4 text-[white] font-['Cormorant']",
-              //   children:
-              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              // }),
             ],
           }),
         ],
@@ -18212,7 +18442,7 @@ function F2() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -20, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-24 ",
+                className: "text-3xl mb-2 pt-24 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Haldi Hungama",
               }),
@@ -18245,26 +18475,47 @@ function F2() {
                     ],
                   }),
                   m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Haldi",
+                  }),
+                  m.jsx("p", {
                     className: "text-base",
                     children: "10:00 AM onwards",
                   }),
                   m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Sajjan Goth",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base",
+                    children: "01:00 PM onwards",
+                  }),
+                  m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Pool Side Garden, Jai Mahal Palace",
+                    children: [
+                      m.jsx("strong", { children: "Pool Side Garden" }), // Wrapped in a bold tag
+                      m.jsx("br", {}),
+                      m.jsx("span", {
+                        style: { fontWeight: "normal" },
+                        children: "Jai Mahal Palace",
+                      }), // Explicitly set to normal font weight
+                    ],
                   }),
                 ],
               }),
-              m.jsx("p", {
-                className: "text-base text-[#775A00] font-['Cormorant']",
-                children: "Dress code",
-              }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.4 },
-                className: "text-xs px-4 text-[#775A00] font-['Cormorant']",
-                children:
-                  "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              }),
+              // m.jsx("p", {
+              //   className: "text-base text-[#775A00] font-['Cormorant']",
+              //   children: "Dress code",
+              // }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.4 },
+              //   className: "text-xs px-4 text-[#775A00] font-['Cormorant']",
+              //   children:
+              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
+              // }),
             ],
           }),
         ],
@@ -18384,12 +18635,12 @@ function B2() {
                 children: [
                   m.jsx("p", {
                     className: "text-xl font-semibold",
-                    children: "FRI",
+                    children: "",
                   }),
                   m.jsxs("p", {
                     className: "text-xl font-semibold",
                     children: [
-                      "JULY",
+                      "FRI, JULY",
                       " ",
                       m.jsx("span", {
                         className: "text-white text-2xl font-['Great Vibes']",
@@ -18508,11 +18759,11 @@ function B2() {
                 transition: { delay: 0.3 },
                 className: "space-y-1 text-white font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-lg", children: "FRI" }),
+                  m.jsx("p", { className: "text-lg", children: "" }),
                   m.jsxs("p", {
                     className: "text-lg",
                     children: [
-                      "JULY",
+                      "FRI, JULY",
                       " ",
                       m.jsx("span", {
                         className: "text-white text-2xl font-['Great Vibes']",
@@ -18532,17 +18783,17 @@ function B2() {
                   }),
                 ],
               }),
-              m.jsx("p", {
-                className: "text-lg text-white font-['Cormorant']",
-                children: "Dress code",
-              }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.4 },
-                className: "text-sm px-4 text-white font-['Cormorant']",
-                children:
-                  "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              }),
+              // m.jsx("p", {
+              //   className: "text-lg text-white font-['Cormorant']",
+              //   children: "Dress code",
+              // }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.4 },
+              //   className: "text-sm px-4 text-white font-['Cormorant']",
+              //   children:
+              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
+              // }),
             ],
           }),
         ],
@@ -18661,7 +18912,7 @@ function rk() {
               m.jsx(E.h2, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-10 ",
+                className: "text-4xl mb-2 pt-20 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Bhaat",
               }),
@@ -18853,7 +19104,7 @@ function rk() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-10 ",
+                className: "text-4xl mb-2 pt-25 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Bhaat",
               }),
@@ -19316,7 +19567,7 @@ function ik() {
                         }),
                         m.jsx("p", {
                           className: "font-['Cormorant'] text-sm opacity-60",
-                          children: "#TanmayAditiForever",
+                          children: "#ATfourthofjuly",
                         }),
                       ],
                     }),
