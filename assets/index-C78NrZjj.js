@@ -17944,7 +17944,7 @@ function D2({ onOpen: n }) {
 }
 
 const X2 = "/assets/sufi_night.PNG",
-  Y2 = "",
+  Y2 = "/assets/sufi_night.PNG",
   Ap = "",
   Vp = "",
   Dp = "",
