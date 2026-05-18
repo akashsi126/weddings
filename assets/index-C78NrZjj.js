@@ -9211,7 +9211,7 @@ function b0() {
 }
 var _0 = b0(),
   F = fu();
-const F0 = "/assets11/weddingsong-DqLsY-0C.mp3";
+const F0 = "/assets/weddingsong-DqLsY-0C.mp3";
 function z0() {
   const n = F.useRef(null);
   return (
@@ -16717,16 +16717,16 @@ function Pt(n = 0.2) {
     { ref: a, isInView: r }
   );
 }
-const l2 = "/assets1/main_section-CXAGbi6Z.png",
-  xp = "/assets1/bg-d-firstpage-C8jjAsbv.png",
-  u2 = "/assets1/dancer1-mp2-TDXs.png",
-  c2 = "/assets1/dancer2-Bn_2k0hM.png",
-  f2 = "/assets1/dancer3-CXrnIJ5V.png",
-  d2 = "/assets1/dancer4-DgnGFgQE.png",
-  h2 = "/assets1/dancer6-BgYehBrP.png",
-  p2 = "/assets1/dancer7-CxqnVLnh.png",
-  m2 = "/assets1/dancer8-DLrAVB_Q.png",
-  wp = "/assets1/ganeshji-kHN3fgWp.png";
+const l2 = "/assets/main_section-CXAGbi6Z.png",
+  xp = "/assets/bg-d-firstpage-C8jjAsbv.png",
+  u2 = "/assets/dancer1-mp2-TDXs.png",
+  c2 = "/assets/dancer2-Bn_2k0hM.png",
+  f2 = "/assets/dancer3-CXrnIJ5V.png",
+  d2 = "/assets/dancer4-DgnGFgQE.png",
+  h2 = "/assets/dancer6-BgYehBrP.png",
+  p2 = "/assets/dancer7-CxqnVLnh.png",
+  m2 = "/assets/dancer8-DLrAVB_Q.png",
+  wp = "/assets/ganeshji-kHN3fgWp.png";
 function y2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useMemo(
@@ -17039,7 +17039,7 @@ function y2() {
     ],
   });
 }
-const g2 = "/assets1/couple-BgrKK4o8.png";
+const g2 = "/assets/couple-BgrKK4o8.png";
 function v2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useRef(null),
@@ -17520,8 +17520,8 @@ function x2() {
     ["polygon", { points: "3 11 22 2 13 21 11 13 3 11", key: "1ltx0t" }],
   ],
   N2 = Dy("navigation", E2),
-  j2 = "/assets1/venue_bg-PWdit_Ul.png";
-const l12 = "/assets1/address.png",
+  j2 = "/assets/venue_bg-PWdit_Ul.png";
+const l12 = "/assets/address.png",
   xp1 = "",
   u21 = "",
   c21 = "",
@@ -17849,8 +17849,8 @@ function M3() {
     }),
   });
 }
-const A2 = "/assets1/envelope2-rrOoymnG.jpeg",
-  V2 = "/assets1/button-CrsgPsuz.png";
+const A2 = "/assets/envelope2-rrOoymnG.jpeg",
+  V2 = "/assets/button-CrsgPsuz.png";
 function D2({ onOpen: n }) {
   const [r, s] = F.useState(!1),
     a = () => {
@@ -17943,7 +17943,7 @@ function D2({ onOpen: n }) {
   });
 }
 
-const X2 = "/assets1/sufi_night.PNG",
+const X2 = "/assets/sufi_night.PNG",
   Y2 = "",
   Ap = "",
   Vp = "",
@@ -18118,14 +18118,14 @@ function q2() {
   });
 }
 
-const R2 = "/assets1/Haldi.png",
+const R2 = "/assets/Haldi.png",
   kp = "",
   Cp = "",
   I2 = "",
   Tp = "",
   L2 = "",
-  b2 = "/assets1/rosepetals-nSS_h6PU.png",
-  _2 = "/assets1/greengrass-KAx7yRl2.png";
+  b2 = "/assets/rosepetals-nSS_h6PU.png",
+  _2 = "/assets/greengrass-KAx7yRl2.png";
 function F2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18362,12 +18362,12 @@ function F2() {
     ],
   });
 }
-const z2 = "/assets1/bg-m-sangeet2-p9cok6hc.jpeg",
-  Pp = "/assets1/lightdesign-0oRqoNiC.png",
-  ut = "/assets1/disco1-BETnkKjM.png",
-  Ys = "/assets1/lamp-B6S3oSZG.png",
-  Fl = "/assets1/side_disco-DgWJgi4b.png",
-  O2 = "/assets1/bg-d-sangeet2-DD9_-rTR.jpeg";
+const z2 = "/assets/bg-m-sangeet2-p9cok6hc.jpeg",
+  Pp = "/assets/lightdesign-0oRqoNiC.png",
+  ut = "/assets/disco1-BETnkKjM.png",
+  Ys = "/assets/lamp-B6S3oSZG.png",
+  Fl = "/assets/side_disco-DgWJgi4b.png",
+  O2 = "/assets/bg-d-sangeet2-DD9_-rTR.jpeg";
 function B2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18641,7 +18641,7 @@ function B2() {
   });
 }
 
-const J2 = "/assets1/bg-bhaat.png",
+const J2 = "/assets/bg-bhaat.png",
   ek = "",
   Rp = "",
   Ip = "",
@@ -19003,16 +19003,16 @@ function rk() {
   });
 }
 
-const U2 = "/assets1/bg-m-wedding2-DwIcryQB.jpeg",
-  W2 = "/assets1/bg-d-wedding2-C3hVFUEz.jpeg",
-  Qs = "/assets1/sidemala2-DDLEBbLq.png",
-  Ep = "/assets1/sidevase-DkdV7-Qs.png",
-  Np = "/assets1/flowervase2-tGMi9Ik3.png",
-  jp = "/assets1/flowervase4-KEqgs6bH.png",
-  Mp = "/assets1/aag-CUV844_d.png",
-  H2 = "/assets1/pond-nvI6UIeI.png",
-  $2 = "/assets1/bride-hIgoeUUe.png",
-  G2 = "/assets1/groom-D1-A2tXR.png";
+const U2 = "/assets/bg-m-wedding2-DwIcryQB.jpeg",
+  W2 = "/assets/bg-d-wedding2-C3hVFUEz.jpeg",
+  Qs = "/assets/sidemala2-DDLEBbLq.png",
+  Ep = "/assets/sidevase-DkdV7-Qs.png",
+  Np = "/assets/flowervase2-tGMi9Ik3.png",
+  jp = "/assets/flowervase4-KEqgs6bH.png",
+  Mp = "/assets/aag-CUV844_d.png",
+  H2 = "/assets/pond-nvI6UIeI.png",
+  $2 = "/assets/bride-hIgoeUUe.png",
+  G2 = "/assets/groom-D1-A2tXR.png";
 function K2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
