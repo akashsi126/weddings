@@ -17916,7 +17916,7 @@ function D2({ onOpen: n }) {
               className:
                 "absolute top-[65%] left-1/2 -translate-x-1/2 text-center px-4",
               children: [
-                m.jsx("h2", {
+                m.jsx("p", {
                   className:
                     "font-['Great_Vibes'] text-3xl md:text-3xl text-[#3e3935] drop-shadow-md",
                   children: "You’re Cordially Invited",
