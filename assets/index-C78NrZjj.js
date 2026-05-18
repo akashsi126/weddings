@@ -17943,7 +17943,7 @@ function D2({ onOpen: n }) {
   });
 }
 
-const X2 = "/assets/sufi_night.PNG",
+const X2 = "/assets/sufi_night.png",
   Y2 = "",
   Ap = "",
   Vp = "",
