@@ -9211,7 +9211,7 @@ function b0() {
 }
 var _0 = b0(),
   F = fu();
-const F0 = "/assets/weddingsong-DqLsY-0C.mp3";
+const F0 = "/assets11/weddingsong-DqLsY-0C.mp3";
 function z0() {
   const n = F.useRef(null);
   return (
@@ -16717,16 +16717,16 @@ function Pt(n = 0.2) {
     { ref: a, isInView: r }
   );
 }
-const l2 = "/assets/main_section-CXAGbi6Z.png",
-  xp = "/assets/bg-d-firstpage-C8jjAsbv.png",
-  u2 = "/assets/dancer1-mp2-TDXs.png",
-  c2 = "/assets/dancer2-Bn_2k0hM.png",
-  f2 = "/assets/dancer3-CXrnIJ5V.png",
-  d2 = "/assets/dancer4-DgnGFgQE.png",
-  h2 = "/assets/dancer6-BgYehBrP.png",
-  p2 = "/assets/dancer7-CxqnVLnh.png",
-  m2 = "/assets/dancer8-DLrAVB_Q.png",
-  wp = "/assets/ganeshji-kHN3fgWp.png";
+const l2 = "/assets1/main_section-CXAGbi6Z.png",
+  xp = "/assets1/bg-d-firstpage-C8jjAsbv.png",
+  u2 = "/assets1/dancer1-mp2-TDXs.png",
+  c2 = "/assets1/dancer2-Bn_2k0hM.png",
+  f2 = "/assets1/dancer3-CXrnIJ5V.png",
+  d2 = "/assets1/dancer4-DgnGFgQE.png",
+  h2 = "/assets1/dancer6-BgYehBrP.png",
+  p2 = "/assets1/dancer7-CxqnVLnh.png",
+  m2 = "/assets1/dancer8-DLrAVB_Q.png",
+  wp = "/assets1/ganeshji-kHN3fgWp.png";
 function y2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useMemo(
@@ -16982,7 +16982,7 @@ function y2() {
                 variants: d,
                 className:
                   " text-[13px] md:text-2xl text-black tracking-wide font-bold font-['Cormorant'] ",
-                children: "Jai Mahal Palace",
+                children: "Taj Jai Mahal Palace",
               }),
             ],
           }),
@@ -17039,7 +17039,7 @@ function y2() {
     ],
   });
 }
-const g2 = "/assets/couple-BgrKK4o8.png";
+const g2 = "/assets1/couple-BgrKK4o8.png";
 function v2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useRef(null),
@@ -17520,8 +17520,8 @@ function x2() {
     ["polygon", { points: "3 11 22 2 13 21 11 13 3 11", key: "1ltx0t" }],
   ],
   N2 = Dy("navigation", E2),
-  j2 = "/assets/venue_bg-PWdit_Ul.png";
-const l12 = "/assets/address.png",
+  j2 = "/assets1/venue_bg-PWdit_Ul.png";
+const l12 = "/assets1/address.png",
   xp1 = "",
   u21 = "",
   c21 = "",
@@ -17712,7 +17712,7 @@ function M2() {
               margin: "20px auto 1.5rem auto",
               display: "block",
             },
-            children: "Jai Mahal palace, Jaipur",
+            children: "Taj Jai Mahal palace, Jaipur",
           }),
           m.jsx(E.div, {
             initial: { opacity: 0, y: 20 },
@@ -17849,8 +17849,8 @@ function M3() {
     }),
   });
 }
-const A2 = "/assets/envelope2-rrOoymnG.jpeg",
-  V2 = "/assets/button-CrsgPsuz.png";
+const A2 = "/assets1/envelope2-rrOoymnG.jpeg",
+  V2 = "/assets1/button-CrsgPsuz.png";
 function D2({ onOpen: n }) {
   const [r, s] = F.useState(!1),
     a = () => {
@@ -17919,7 +17919,7 @@ function D2({ onOpen: n }) {
                 m.jsx("h2", {
                   className:
                     "font-['Great_Vibes'] text-3xl md:text-5xl text-[#3e3935] drop-shadow-md",
-                  children: "You’re Invited",
+                  children: "You’re Cordially Invited",
                 }),
                 m.jsx("p", {
                   className:
@@ -17943,8 +17943,8 @@ function D2({ onOpen: n }) {
   });
 }
 
-const X2 = "/assets/sufi_night.png",
-  Y2 = "/assets/sufi_night.png",
+const X2 = "/assets1/sufi_night.PNG",
+  Y2 = "",
   Ap = "",
   Vp = "",
   Dp = "",
@@ -18118,14 +18118,14 @@ function q2() {
   });
 }
 
-const R2 = "/assets/Haldi.png",
+const R2 = "/assets1/Haldi.png",
   kp = "",
   Cp = "",
   I2 = "",
   Tp = "",
   L2 = "",
-  b2 = "/assets/rosepetals-nSS_h6PU.png",
-  _2 = "/assets/greengrass-KAx7yRl2.png";
+  b2 = "/assets1/rosepetals-nSS_h6PU.png",
+  _2 = "/assets1/greengrass-KAx7yRl2.png";
 function F2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18285,14 +18285,14 @@ function F2() {
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Haldi Hungama",
               }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-sm mb-3",
-                style: { fontFamily: "Cormorant", color: "#775A00" },
-                children:
-                  "A colorful celebration of tradition and cultural joy.",
-              }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-sm mb-3",
+              //   style: { fontFamily: "Cormorant", color: "#775A00" },
+              //   children:
+              //     "A colorful celebration of tradition and cultural joy.",
+              // }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18320,7 +18320,7 @@ function F2() {
                   }),
                   m.jsx("p", {
                     className: "text-base",
-                    children: "10:00 AM onwards",
+                    children: "11:00 AM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
@@ -18338,7 +18338,7 @@ function F2() {
                       m.jsx("br", {}),
                       m.jsx("span", {
                         style: { fontWeight: "normal" },
-                        children: "Jai Mahal Palace",
+                        children: "Taj Jai Mahal Palace",
                       }), // Explicitly set to normal font weight
                     ],
                   }),
@@ -18362,12 +18362,12 @@ function F2() {
     ],
   });
 }
-const z2 = "/assets/bg-m-sangeet2-p9cok6hc.jpeg",
-  Pp = "/assets/lightdesign-0oRqoNiC.png",
-  ut = "/assets/disco1-BETnkKjM.png",
-  Ys = "/assets/lamp-B6S3oSZG.png",
-  Fl = "/assets/side_disco-DgWJgi4b.png",
-  O2 = "/assets/bg-d-sangeet2-DD9_-rTR.jpeg";
+const z2 = "/assets1/bg-m-sangeet2-p9cok6hc.jpeg",
+  Pp = "/assets1/lightdesign-0oRqoNiC.png",
+  ut = "/assets1/disco1-BETnkKjM.png",
+  Ys = "/assets1/lamp-B6S3oSZG.png",
+  Fl = "/assets1/side_disco-DgWJgi4b.png",
+  O2 = "/assets1/bg-d-sangeet2-DD9_-rTR.jpeg";
 function B2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18459,14 +18459,14 @@ function B2() {
                 style: { fontFamily: "Great Vibes", color: "white" },
                 children: "Rhythm of Romance",
               }),
-              m.jsx(E.p, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "font-semibold mb-6 text-xl",
-                style: { fontFamily: "Cormorant", color: "white" },
-                children:
-                  "A magical night of rhythm, romance, and joyful celebrations",
-              }),
+              // m.jsx(E.p, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "font-semibold mb-6 text-xl",
+              //   style: { fontFamily: "Cormorant", color: "white" },
+              //   children:
+              //     "A magical night of rhythm, romance, and joyful celebrations",
+              // }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18491,11 +18491,11 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-xl font-semibold",
-                    children: "06:00 PM onwards",
+                    children: "08:00 PM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-xl font-semibold mb-3",
-                    children: "Jai Mahal Palace",
+                    children: "Taj Jai Mahal Palace, Jaipur",
                   }),
                 ],
               }),
@@ -18618,7 +18618,7 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-lg mb-3",
-                    children: "Jai Mahal Palace",
+                    children: "Taj Jai Mahal Palace",
                   }),
                 ],
               }),
@@ -18641,7 +18641,7 @@ function B2() {
   });
 }
 
-const J2 = "/assets/bg-bhaat.png",
+const J2 = "/assets1/bg-bhaat.png",
   ek = "",
   Rp = "",
   Ip = "",
@@ -18755,14 +18755,14 @@ function rk() {
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Bhaat",
               }),
-              m.jsx(E.p, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-sm mb-3",
-                style: { fontFamily: "Cormorant", color: "white" },
-                children:
-                  "A playful morning of mehendi and cultural festivities",
-              }),
+              // m.jsx(E.p, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-sm mb-3",
+              //   style: { fontFamily: "Cormorant", color: "white" },
+              //   children:
+              //     "A playful morning of mehendi and cultural festivities",
+              // }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18789,21 +18789,21 @@ function rk() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2 text-[black]",
-                    children: "Uttar Garden Lawn",
+                    children: "Taj Jai mahal palace, Jaipur",
                   }),
                 ],
               }),
-              m.jsx("p", {
-                className: "text-base text-[white] font-['Cormorant']",
-                children: "Dress code",
-              }),
-              m.jsx(E.p, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.4 },
-                className: "text-xs px-4 text-[white] font-['Cormorant']",
-                children:
-                  "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              }),
+              // m.jsx("p", {
+              //   className: "text-base text-[white] font-['Cormorant']",
+              //   children: "Dress code",
+              // }),
+              // m.jsx(E.p, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.4 },
+              //   className: "text-xs px-4 text-[white] font-['Cormorant']",
+              //   children:
+              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
+              // }),
             ],
           }),
         ],
@@ -18947,13 +18947,13 @@ function rk() {
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
                 children: "Bhaat",
               }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-sm mb-3",
-                style: { fontFamily: "Cormorant", color: "#775A00" },
-                children: "A joyful day of Bhaat traditions",
-              }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-sm mb-3",
+              //   style: { fontFamily: "Cormorant", color: "#775A00" },
+              //   children: "A joyful day of Bhaat traditions",
+              // }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18980,7 +18980,7 @@ function rk() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2 text-[#775A00]",
-                    children: "Jai Mahal Palace",
+                    children: "Taj Jai Mahal Palace",
                   }),
                 ],
               }),
@@ -19003,16 +19003,16 @@ function rk() {
   });
 }
 
-const U2 = "/assets/bg-m-wedding2-DwIcryQB.jpeg",
-  W2 = "/assets/bg-d-wedding2-C3hVFUEz.jpeg",
-  Qs = "/assets/sidemala2-DDLEBbLq.png",
-  Ep = "/assets/sidevase-DkdV7-Qs.png",
-  Np = "/assets/flowervase2-tGMi9Ik3.png",
-  jp = "/assets/flowervase4-KEqgs6bH.png",
-  Mp = "/assets/aag-CUV844_d.png",
-  H2 = "/assets/pond-nvI6UIeI.png",
-  $2 = "/assets/bride-hIgoeUUe.png",
-  G2 = "/assets/groom-D1-A2tXR.png";
+const U2 = "/assets1/bg-m-wedding2-DwIcryQB.jpeg",
+  W2 = "/assets1/bg-d-wedding2-C3hVFUEz.jpeg",
+  Qs = "/assets1/sidemala2-DDLEBbLq.png",
+  Ep = "/assets1/sidevase-DkdV7-Qs.png",
+  Np = "/assets1/flowervase2-tGMi9Ik3.png",
+  jp = "/assets1/flowervase4-KEqgs6bH.png",
+  Mp = "/assets1/aag-CUV844_d.png",
+  H2 = "/assets1/pond-nvI6UIeI.png",
+  $2 = "/assets1/bride-hIgoeUUe.png",
+  G2 = "/assets1/groom-D1-A2tXR.png";
 function K2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -19121,14 +19121,14 @@ function K2() {
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
                 children: "The Royal Affairs",
               }),
-              m.jsx(E.p, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-base font-semibold mb-3",
-                style: { fontFamily: "Cormorant", color: "#775A00" },
-                children:
-                  "A grand celebration of royal elegance and timeless traditions",
-              }),
+              // m.jsx(E.p, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-base font-semibold mb-3",
+              //   style: { fontFamily: "Cormorant", color: "#775A00" },
+              //   children:
+              //     "A grand celebration of royal elegance and timeless traditions",
+              // }),
               m.jsxs(E.div, {
                 animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -19158,23 +19158,23 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Jai Mahal Palace",
+                    children: "Taj Jai Mahal Palace",
                   }),
                 ],
               }),
-              m.jsx("p", {
-                className:
-                  "text-lg font-semibold text-[#775A00] font-['Cormorant']",
-                children: "Dress code",
-              }),
-              m.jsx(E.p, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.4 },
-                className:
-                  "text-xs font-semibold px-4 text-[#775A00] font-['Cormorant']",
-                children:
-                  "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              }),
+              // m.jsx("p", {
+              //   className:
+              //     "text-lg font-semibold text-[#775A00] font-['Cormorant']",
+              //   children: "Dress code",
+              // }),
+              // m.jsx(E.p, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.4 },
+              //   className:
+              //     "text-xs font-semibold px-4 text-[#775A00] font-['Cormorant']",
+              //   children:
+              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
+              // }),
             ],
           }),
         ],
@@ -19281,14 +19281,14 @@ function K2() {
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
                 children: "The Royal Affairs",
               }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-sm mb-3",
-                style: { fontFamily: "Cormorant", color: "#775A00" },
-                children:
-                  "A grand celebration of royal elegance and timeless traditions.",
-              }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-sm mb-3",
+              //   style: { fontFamily: "Cormorant", color: "#775A00" },
+              //   children:
+              //     "A grand celebration of royal elegance and timeless traditions.",
+              // }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -19315,21 +19315,21 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Jai Mahal Palace",
+                    children: "Taj Jai Mahal Palace",
                   }),
                 ],
               }),
-              m.jsx("p", {
-                className: "text-base text-[#775A00] font-['Cormorant']",
-                children: "Dress code",
-              }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.4 },
-                className: "text-xs px-4 text-[#775A00] font-['Cormorant']",
-                children:
-                  "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
-              }),
+              // m.jsx("p", {
+              //   className: "text-base text-[#775A00] font-['Cormorant']",
+              //   children: "Dress code",
+              // }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.4 },
+              //   className: "text-xs px-4 text-[#775A00] font-['Cormorant']",
+              //   children:
+              //     "Embracing the charm of Gujarati heritage Bandhani, Patola, Leheriya or Kutchi Mirrorwork",
+              // }),
             ],
           }),
         ],
