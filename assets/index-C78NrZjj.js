@@ -18110,11 +18110,14 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                     children: [
+                    children: [
                       m.jsx("strong", { children: "" }),
-                      m.jsx("strong",{
-                        style: { fontWeight: "normal", color: "#eadbc7" },
-                          children: "Diggi Palace" }), // Wrapped in a bold tag
+                      m.jsx("br", {}),
+                      m.jsx("br", {}),
+                      m.jsx("strong", {
+                        style: { fontWeight: "strong", color: "#eadbc7" },
+                        children: "Diggi Palace",
+                      }), // Wrapped in a bold tag
                       m.jsx("br", {}),
                       m.jsx("span", {
                         style: { fontWeight: "normal" },
