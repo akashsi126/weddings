@@ -17127,7 +17127,7 @@ function v2() {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
               transition: { duration: 0.8, delay: 0.1 },
               className: "text-[#B79B40] font-['Cormorant'] mb-6 md:mb-4",
-              children: "With immense joy and Delight",
+              children: "With immense joy and delight",
             }),
             m.jsx(E.h2, {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
@@ -18072,15 +18072,15 @@ function q2() {
                   color: "white",
                   marginTop: "150px",
                 },
-                children: "Shaam-e-Sufiyana",
+                children: "Sufi Mehfil",
               }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-sm mb-3",
-                style: { fontFamily: "Cormorant", color: "white" },
-                children: "A soulful evening of melodies and timeless charm",
-              }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-sm mb-3",
+              //   style: { fontFamily: "Cormorant", color: "white" },
+              //   children: "A soulful evening of melodies and timeless charm",
+              // }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18106,7 +18106,7 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Diggi Palace, Jaipur",
+                    children: "Diggi Palace, Sawai Ram Singh Road, Jaipur",
                   }),
                 ],
               }),
@@ -18283,7 +18283,7 @@ function F2() {
                 transition: { duration: 0.8 },
                 className: "text-3xl mb-2 pt-24 ",
                 style: { fontFamily: "Great Vibes", color: "#f97316" },
-                children: "Haldi Hungama",
+                children: "Haldi",
               }),
               // m.jsx(E.p, {
               //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18334,7 +18334,8 @@ function F2() {
                   m.jsx("p", {
                     className: "text-base mb-2",
                     children: [
-                      m.jsx("strong", { children: "Pool Side Garden" }), // Wrapped in a bold tag
+                      m.jsx("strong", { children: "" }),
+                      m.jsx("strong", { children: "Pool Side Lawns" }), // Wrapped in a bold tag
                       m.jsx("br", {}),
                       m.jsx("span", {
                         style: { fontWeight: "normal" },
@@ -18457,7 +18458,7 @@ function B2() {
                 transition: { duration: 0.8 },
                 className: "text-6xl mb-4 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
-                children: "Rhythm of Romance",
+                children: "Sangeet",
               }),
               // m.jsx(E.p, {
               //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -18583,16 +18584,16 @@ function B2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-4 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
-                children: "Rhythm of Romance",
+                children: "Sangeet",
               }),
-              m.jsx(E.p, {
-                animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.2 },
-                className: "text-base mb-6",
-                style: { fontFamily: "Cormorant", color: "white" },
-                children:
-                  "A magical night of rhythm, romance, and joyful celebrations",
-              }),
+              // m.jsx(E.p, {
+              //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.2 },
+              //   className: "text-base mb-6",
+              //   style: { fontFamily: "Cormorant", color: "white" },
+              //   children:
+              //     "A magical night of rhythm, romance, and joyful celebrations",
+              // }),
               m.jsxs(E.div, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
                 transition: { delay: 0.3 },
@@ -18614,7 +18615,11 @@ function B2() {
                   }),
                   m.jsx("p", {
                     className: "text-lg",
-                    children: "06:00 PM onwards",
+                    children: "08:00 PM onwards",
+                  }),
+                  m.jsx("p", {
+                    className: "text-lg mb-3",
+                    children: "The Banquet",
                   }),
                   m.jsx("p", {
                     className: "text-lg mb-3",
@@ -18786,6 +18791,10 @@ function rk() {
                   m.jsx("p", {
                     className: "text-base",
                     children: "9:00 PM onwards",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base mb-2 text-[black]",
+                    children: "The Banquet",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2 text-[black]",
@@ -19119,7 +19128,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-2 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "The Royal Affairs",
+                children: "पाणिग्रहण संस्कार",
               }),
               // m.jsx(E.p, {
               //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -19279,7 +19288,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-4xl mb-2 pt-25 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "The Royal Affairs",
+                children: "पाणिग्रहण संस्कार",
               }),
               // m.jsx(E.p, {
               //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
