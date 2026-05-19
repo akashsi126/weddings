@@ -18112,7 +18112,9 @@ function q2() {
                     className: "text-base mb-2",
                      children: [
                       m.jsx("strong", { children: "" }),
-                      m.jsx("strong", { children: "Diggi Palace" }), // Wrapped in a bold tag
+                      m.jsx("strong",{
+                        style: { fontWeight: "normal", color: "#eadbc7" },
+                          children: "Diggi Palace" }), // Wrapped in a bold tag
                       m.jsx("br", {}),
                       m.jsx("span", {
                         style: { fontWeight: "normal" },
