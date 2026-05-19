@@ -17206,12 +17206,12 @@ function v2() {
                 m.jsx("p", {
                   className:
                     "text-[#B79B40] font-['Cormorant'] md:mb-2 md:text-xl",
-                  children: "Mark your calendar",
+                  children: "Mark Your Calendar",
                 }),
                 m.jsx("p", {
                   style: { fontFamily: "Great Vibes" },
                   className: "text-4xl  text-[#B79B40]",
-                  children: "Wedding Events",
+                  children: "Wedding Festivities",
                 }),
               ],
             }),
@@ -17263,14 +17263,14 @@ function v2() {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
               transition: { duration: 0.8, delay: 0.1 },
               className: "text-[#B79B40] font-['Cormorant'] mb-4",
-              children: "Save the date",
+              children: "Mark Your Calendar",
             }),
             m.jsx(E.p, {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
               transition: { duration: 0.8, delay: 0.1 },
               style: { fontFamily: "Great Vibes" },
               className: "text-4xl text-[#B79B40]",
-              children: "Wedding Events",
+              children: "Wedding Festivities",
             }),
           ],
         }),
@@ -17324,8 +17324,12 @@ function x2() {
           children: [
             m.jsx("h2", {
               className: "text-3xl md:text-5xl lg:text-6xl mb-6",
-              style: { fontFamily: "Great Vibes", color: "#b8962e" },
-              children: a("Awaiting Your Noble Presence", 0, 0.15),
+              style: { fontFamily: "Cormorant", color: "#b8962e" },
+              children: a(
+                "Your gracious presence is enthusiastically awaited",
+                0,
+                0.15,
+              ),
             }),
             m.jsxs("p", {
               className: "text-base md:text-xl lg:text-2xl leading-relaxed",
