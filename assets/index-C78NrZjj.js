@@ -18380,12 +18380,12 @@ function F2() {
     ],
   });
 }
-const z2 = "/assets/bg-m-sangeet2-p9cok6hc.jpeg",
-  Pp = "/assets/lightdesign-0oRqoNiC.png",
-  ut = "/assets/disco1-BETnkKjM.png",
-  Ys = "/assets/lamp-B6S3oSZG.png",
-  Fl = "/assets/side_disco-DgWJgi4b.png",
-  O2 = "/assets/bg-d-sangeet2-DD9_-rTR.jpeg";
+const z2 = "/assets/sangeet.jpeg",
+  Pp = "",
+  ut = "",
+  Ys = "",
+  Fl = "",
+  O2 = "";
 function B2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
