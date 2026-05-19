@@ -18110,7 +18110,15 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
-                    children: "Diggi Palace, Sawai Ram Singh Road, Jaipur",
+                     children: [
+                      m.jsx("strong", { children: "" }),
+                      m.jsx("strong", { children: "Diggi Palace" }), // Wrapped in a bold tag
+                      m.jsx("br", {}),
+                      m.jsx("span", {
+                        style: { fontWeight: "normal" },
+                        children: "Sawai Ram Singh Road, Jaipur",
+                      }),
+                    ],
                   }),
                 ],
               }),
