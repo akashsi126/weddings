@@ -17127,7 +17127,7 @@ function v2() {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
               transition: { duration: 0.8, delay: 0.1 },
               className: "text-[#B79B40] font-['Cormorant'] mb-6 md:mb-4",
-              children: "With immense joy and love",
+              children: "With immense joy and Delight",
             }),
             m.jsx(E.h2, {
               animate: r ? { opacity: 1, y: 0 } : { opacity: 0, y: -40 },
@@ -17206,7 +17206,7 @@ function v2() {
                 m.jsx("p", {
                   className:
                     "text-[#B79B40] font-['Cormorant'] md:mb-2 md:text-xl",
-                  children: "Save the date",
+                  children: "Mark your calendar",
                 }),
                 m.jsx("p", {
                   style: { fontFamily: "Great Vibes" },
