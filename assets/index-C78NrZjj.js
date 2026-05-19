@@ -18113,7 +18113,6 @@ function q2() {
                     children: [
                       m.jsx("strong", { children: "" }),
                       m.jsx("br", {}),
-                      m.jsx("br", {}),
                       m.jsx("strong", {
                         style: { fontWeight: "strong", color: "#eadbc7" },
                         children: "Diggi Palace",
