@@ -18598,7 +18598,7 @@ function B2() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-5xl mb-4 pt-32 ",
+                className: "text-5xl mb-4 pt-20 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
                 children: "Sangeet",
               }),
