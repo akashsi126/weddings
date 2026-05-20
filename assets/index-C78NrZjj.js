@@ -19318,7 +19318,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-4xl mb-2 pt-25 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "पाणिग्रहण संस्कार",
+                children: "Wedding Rituals",
               }),
               // m.jsx(E.p, {
               //   animate: a ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -19333,11 +19333,10 @@ function K2() {
                 transition: { delay: 0.3 },
                 className: "space-y-0.5 text-[#775A00] font-['Cormorant']",
                 children: [
-                  m.jsx("p", { className: "text-base", children: "SAT" }),
                   m.jsxs("p", {
                     className: "text-base",
                     children: [
-                      "JULY",
+                      "SAT, JULY",
                       " ",
                       m.jsx("span", {
                         className:
