@@ -1032,7 +1032,7 @@ function I0() {
       }
     return (
       `
-` +
+  ` +
       P +
       e
     );
@@ -1082,9 +1082,9 @@ function I0() {
       if (A && o && typeof A.stack == "string") {
         for (
           var l = A.stack.split(`
-`),
+  `),
             c = o.stack.split(`
-`),
+  `),
             p = l.length - 1,
             w = c.length - 1;
           1 <= p && 0 <= w && l[p] !== c[w];
@@ -1097,7 +1097,7 @@ function I0() {
                 if ((p--, w--, 0 > w || l[p] !== c[w])) {
                   var k =
                     `
-` + l[p].replace(" at new ", " at ");
+  ` + l[p].replace(" at new ", " at ");
                   return (
                     e.displayName &&
                       k.includes("<anonymous>") &&
@@ -3479,7 +3479,7 @@ function I0() {
       .replace(
         Bg,
         `
-`,
+  `,
       )
       .replace(Ug, "");
   }
@@ -5298,10 +5298,10 @@ function I0() {
     } catch (c) {
       l =
         `
-Error generating stack: ` +
+  Error generating stack: ` +
         c.message +
         `
-` +
+  ` +
         c.stack;
     }
     return { value: e, source: t, stack: l, digest: null };
@@ -14616,14 +14616,14 @@ function Ew({
         se.appendChild(G),
         G.sheet &&
           G.sheet.insertRule(`
-          [data-motion-pop-id="${f}"] {
-            position: absolute !important;
-            width: ${C}px !important;
-            height: ${j}px !important;
-            ${O}px !important;
-            ${W}px !important;
-          }
-        `),
+            [data-motion-pop-id="${f}"] {
+              position: absolute !important;
+              width: ${C}px !important;
+              height: ${j}px !important;
+              ${O}px !important;
+              ${W}px !important;
+            }
+          `),
         () => {
           var ae;
           ((ae = h.current) == null || ae.removeAttribute("data-motion-pop-id"),
@@ -17955,7 +17955,8 @@ const X2 = "/assets/sangeet.jpeg",
   hi = "",
   mo = "",
   Q2 = "",
-  Z2 = "";
+  AL2 = "assets/direction_button.png";
+Z2 = "";
 function q2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18001,18 +18002,18 @@ function q2() {
               rotate: { duration: 3, repeat: 1 / 0 },
             },
           }),
+          // m.jsx(E.img, {
+          //   src: ut,
+          //   className: "absolute bottom-16 right-0 w-12 z-20",
+          //   initial: { y: 120, opacity: 0 },
+          //   animate: a ? { y: 0, opacity: 1, scale: [1, 1.1, 1] } : {},
+          //   transition: {
+          //     y: { duration: 1, delay: 0.4 },
+          //     scale: { duration: 3, repeat: 1 / 0 },
+          //   },
+          // }),
           m.jsx(E.img, {
-            src: ut,
-            className: "absolute bottom-16 right-0 w-12 z-20",
-            initial: { y: 120, opacity: 0 },
-            animate: a ? { y: 0, opacity: 1, scale: [1, 1.1, 1] } : {},
-            transition: {
-              y: { duration: 1, delay: 0.4 },
-              scale: { duration: 3, repeat: 1 / 0 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: ut,
+            src: AL2,
             className: "absolute bottom-18 right-12 w-10 z-20",
             initial: { y: 120, opacity: 0 },
             animate: a ? { y: 0, opacity: 1, scale: [1, 1.08, 1] } : {},
