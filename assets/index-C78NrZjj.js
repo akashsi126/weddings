@@ -19472,7 +19472,7 @@ function ik() {
                         m.jsx("p", {
                           className:
                             "font-['Cormorant'] text-lg opacity-80 mb-2",
-                          children: "June 05, 2026",
+                          children: "July 04, 2026",
                         }),
                         m.jsx("p", {
                           className: "font-['Cormorant'] text-sm opacity-60",
