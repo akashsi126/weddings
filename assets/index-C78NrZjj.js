@@ -16717,16 +16717,16 @@ function Pt(n = 0.2) {
     { ref: a, isInView: r }
   );
 }
-const l2 = "/assets/main_section-CXAGbi6Z.png",
-  xp = "/assets/bg-d-firstpage-C8jjAsbv.png",
-  u2 = "/assets/dancer1-mp2-TDXs.png",
-  c2 = "/assets/dancer2-Bn_2k0hM.png",
-  f2 = "/assets/dancer3-CXrnIJ5V.png",
-  d2 = "/assets/dancer4-DgnGFgQE.png",
-  h2 = "/assets/dancer6-BgYehBrP.png",
-  p2 = "/assets/dancer7-CxqnVLnh.png",
-  m2 = "/assets/dancer8-DLrAVB_Q.png",
-  wp = "/assets/ganeshji-kHN3fgWp.png";
+const l2 = "/assets/welcome_slider.jpeg",
+  xp = "",
+  u2 = "",
+  c2 = "",
+  f2 = "",
+  d2 = "",
+  h2 = "",
+  p2 = "",
+  m2 = "",
+  wp = "";
 function y2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useMemo(
@@ -18074,7 +18074,7 @@ function q2() {
                 style: {
                   fontFamily: "Great Vibes",
                   color: "white",
-                  marginTop: "50px",
+                  marginTop: "30px",
                 },
                 children: "Sufi Mehfil",
               }),
@@ -18105,13 +18105,26 @@ function q2() {
                     ],
                   }),
                   m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Tilak",
+                  }),
+                  m.jsx("p", {
                     className: "text-base",
-                    children: "5:00 PM onwards",
+                    children: "05:00 PM onwards",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Sufi Night",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base",
+                    children: "07:00 PM onwards",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
                     children: [
-                      m.jsx("strong", { children: "" }),
                       m.jsx("br", {}),
                       m.jsx("strong", {
                         style: { fontWeight: "strong", color: "#eadbc7" },
