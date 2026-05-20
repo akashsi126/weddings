@@ -18022,8 +18022,12 @@ function q2() {
               scale: { duration: 3.5, repeat: 1 / 0 },
             },
             onClick: () => {
-    window.open("https://maps.google.com/?q=YOUR_LOCATION_OR_COORDINATES", "_blank", "noopener,noreferrer");
-  },
+              window.open(
+                "https://maps.app.goo.gl/KGDw5ssJpRvCErCL8",
+                "_blank",
+                "noopener,noreferrer",
+              );
+            },
           }),
           m.jsx(E.img, {
             src: hi,
@@ -19443,7 +19447,8 @@ function ik() {
                       transition: { duration: 0.8 },
                       children: [
                         m.jsx("p", {
-                          className: "font-['Great_Vibes'] text-4xl mb-4",
+                          className: "text-4xl mb-4",
+                          style: { fontFamily: "Allura, cursive" },
                           children: "Tanmay & Aditi",
                         }),
                         m.jsxs("div", {
@@ -19471,7 +19476,7 @@ function ik() {
                         }),
                         m.jsx("p", {
                           className: "font-['Cormorant'] text-sm opacity-60",
-                          children: "#ATFourthofJuly",
+                          children: "#ATtheFourthofJuly",
                         }),
                       ],
                     }),
