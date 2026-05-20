@@ -19316,7 +19316,7 @@ function K2() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-25 ",
+                className: "text-4xl mb-2 pt-10 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
                 children: "Wedding Rituals",
               }),
@@ -19349,7 +19349,7 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
-                    style: { color: "#f97316", fontWeight: "800" },
+                    style: { color: "#B13401", fontWeight: "800" },
                     children: "Baraat Procession",
                   }),
                   m.jsx("p", {
@@ -19358,7 +19358,7 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
-                    style: { color: "#f97316", fontWeight: "800" },
+                    style: { color: "#B13401", fontWeight: "800" },
                     children: "Jaimala",
                   }),
                   m.jsx("p", {
@@ -19367,7 +19367,7 @@ function K2() {
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
-                    style: { color: "#f97316", fontWeight: "800" },
+                    style: { color: "#B13401", fontWeight: "800" },
                     children: "Pheras",
                   }),
                   m.jsx("p", {
