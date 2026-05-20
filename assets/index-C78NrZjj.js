@@ -18014,13 +18014,16 @@ function q2() {
           // }),
           m.jsx(E.img, {
             src: AL2,
-            className: "absolute bottom-10 right-12 w-30 z-120",
+            className: "absolute bottom-10 right-5 w-30 z-120",
             initial: { y: 120, opacity: 0 },
             animate: a ? { y: 0, opacity: 1, scale: [1, 1.08, 1] } : {},
             transition: {
               y: { duration: 1, delay: 0.5 },
               scale: { duration: 3.5, repeat: 1 / 0 },
             },
+            onClick: () => {
+    window.open("https://maps.google.com/?q=YOUR_LOCATION_OR_COORDINATES", "_blank", "noopener,noreferrer");
+  },
           }),
           m.jsx(E.img, {
             src: hi,
