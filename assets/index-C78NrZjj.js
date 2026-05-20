@@ -18106,7 +18106,7 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
-                    style: { color: "#f97316", fontWeight: "800" },
+                    style: { color: "#eadbc7", fontWeight: "800" },
                     children: "Tilak",
                   }),
                   m.jsx("p", {
@@ -18115,7 +18115,7 @@ function q2() {
                   }),
                   m.jsx("p", {
                     className: "text-base font-bold",
-                    style: { color: "#f97316", fontWeight: "800" },
+                    style: { color: "#eadbc7", fontWeight: "800" },
                     children: "Sufi Night",
                   }),
                   m.jsx("p", {
@@ -19016,7 +19016,7 @@ function rk() {
                     className: "text-base",
                     children: "10:00 AM onwards",
                   }),
-                  
+
                   m.jsx("p", {
                     className: "text-base font-semibold mb-2 text-[#f97316]",
                     children: "The Banquet",
@@ -19162,7 +19162,7 @@ function K2() {
                 transition: { duration: 0.8 },
                 className: "text-5xl mb-2 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "#B13401" },
-                children: "पाणिग्रहण संस्कार",
+                children: "Wedding Rituals",
               }),
               // m.jsx(E.p, {
               //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
@@ -19177,14 +19177,10 @@ function K2() {
                 transition: { delay: 0.3 },
                 className: "space-y-0.5 text-[#775A00] font-['Cormorant']",
                 children: [
-                  m.jsx("p", {
-                    className: "text-lg font-semibold",
-                    children: "SAT",
-                  }),
                   m.jsxs("p", {
                     className: "text-lg font-semibold",
                     children: [
-                      "JULY",
+                      "SAT, JULY",
                       " ",
                       m.jsx("span", {
                         className:
@@ -19449,7 +19445,7 @@ function ik() {
                         }),
                         m.jsx("p", {
                           className: "font-['Cormorant'] text-sm opacity-60",
-                          children: "#ATfourthofjuly",
+                          children: "#ATFourthofJuly",
                         }),
                       ],
                     }),
