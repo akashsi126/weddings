@@ -19046,7 +19046,7 @@ function rk() {
   });
 }
 
-const U2 = "/assets/bg-m-wedding2-DwIcryQB.jpeg",
+const U2 = "/assets/main_section-CXAGbi6Z.png",
   W2 = "/assets/bg-d-wedding2-C3hVFUEz.jpeg",
   Qs = "/assets/sidemala2-DDLEBbLq.png",
   Ep = "/assets/sidevase-DkdV7-Qs.png",
