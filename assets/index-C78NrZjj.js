@@ -16726,7 +16726,7 @@ const l2 = "/assets/welcome_slider.jpeg",
   h2 = "",
   p2 = "",
   m2 = "",
-  wp = "";
+  wp = "/assets/ganeshji-kHN3fgWp.png";
 function y2() {
   const { ref: n, isInView: r } = Pt(),
     s = F.useMemo(
@@ -18702,93 +18702,93 @@ function rk() {
           backgroundPosition: "center",
         },
         children: [
-          m.jsx(E.img, {
-            src: Rp,
-            className: "absolute top-0 left-0 w-[350px] z-10",
-            initial: { x: -150, opacity: 0 },
-            animate: r ? { x: 0, opacity: 1, y: [0, -8, 0] } : {},
-            transition: {
-              x: { duration: 1 },
-              y: { duration: 5, repeat: 1 / 0 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: Ip,
-            className: "absolute top-4 right-0 w-[550px] z-10",
-            initial: { x: 150, opacity: 0 },
-            animate: r ? { x: 0, opacity: 1, y: [0, -8, 0] } : {},
-            transition: {
-              x: { duration: 1 },
-              y: { duration: 5, repeat: 1 / 0 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: Lp,
-            className: "absolute -top-60 left-0 w-full z-20",
-            initial: { y: -150, opacity: 0 },
-            animate: r ? { y: 0, opacity: 1 } : {},
-            transition: { duration: 1 },
-          }),
-          m.jsx(E.img, {
-            src: bp,
-            className: "absolute -top-42 left-0 w-full z-30",
-            initial: { y: -150, opacity: 0 },
-            animate: r ? { y: [0, -12, 0], opacity: 1 } : {},
-            transition: {
-              y: { duration: 4, repeat: 1 / 0 },
-              opacity: { duration: 1 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: _p,
-            className: "absolute bottom-6 right-12 w-68 z-20",
-            initial: { y: 150, opacity: 0 },
-            animate: r ? { y: 0, opacity: 1, scale: [1, 1.06, 1] } : {},
-            transition: {
-              y: { duration: 1, delay: 0.4 },
-              scale: { duration: 3, repeat: 1 / 0 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: zp,
-            className: "absolute bottom-0 right-0 w-32 z-20",
-            initial: { y: 150, opacity: 0 },
-            animate: r ? { y: 0, opacity: 1, scale: [1, 1.08, 1] } : {},
-            transition: {
-              y: { duration: 1, delay: 0.7 },
-              scale: { duration: 3, repeat: 1 / 0 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: mo,
-            className: "absolute bottom-0 right-24 w-28 z-40",
-            initial: { y: 150, opacity: 0 },
-            animate: r ? { y: [0, -6, 0], opacity: 1 } : {},
-            transition: {
-              y: { duration: 4, repeat: 1 / 0 },
-              opacity: { duration: 1, delay: 0.8 },
-            },
-          }),
-          m.jsx(E.img, {
-            src: Op,
-            className: "absolute bottom-0 -right-4 w-96 z-30",
-            initial: { y: 150, opacity: 0 },
-            animate: r ? { y: [0, -6, 0], opacity: 1 } : {},
-            transition: {
-              y: { duration: 4.5, repeat: 1 / 0 },
-              opacity: { duration: 1, delay: 0.9 },
-            },
-          }),
-          m.jsxs("div", {
-            className: "text-center max-w-xs pt-[120px] lg:pt-20",
-            children: [
-              m.jsx(E.h2, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
-                transition: { duration: 0.8 },
-                className: "text-4xl mb-2 pt-20 ",
-                style: { fontFamily: "Great Vibes", color: "#f97316" },
-                children: "Bhaat",
-              }),
+          // m.jsx(E.img, {
+          //   src: Rp,
+          //   className: "absolute top-0 left-0 w-[350px] z-10",
+          //   initial: { x: -150, opacity: 0 },
+          //   animate: r ? { x: 0, opacity: 1, y: [0, -8, 0] } : {},
+          //   transition: {
+          //     x: { duration: 1 },
+          //     y: { duration: 5, repeat: 1 / 0 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: Ip,
+          //   className: "absolute top-4 right-0 w-[550px] z-10",
+          //   initial: { x: 150, opacity: 0 },
+          //   animate: r ? { x: 0, opacity: 1, y: [0, -8, 0] } : {},
+          //   transition: {
+          //     x: { duration: 1 },
+          //     y: { duration: 5, repeat: 1 / 0 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: Lp,
+          //   className: "absolute -top-60 left-0 w-full z-20",
+          //   initial: { y: -150, opacity: 0 },
+          //   animate: r ? { y: 0, opacity: 1 } : {},
+          //   transition: { duration: 1 },
+          // }),
+          // m.jsx(E.img, {
+          //   src: bp,
+          //   className: "absolute -top-42 left-0 w-full z-30",
+          //   initial: { y: -150, opacity: 0 },
+          //   animate: r ? { y: [0, -12, 0], opacity: 1 } : {},
+          //   transition: {
+          //     y: { duration: 4, repeat: 1 / 0 },
+          //     opacity: { duration: 1 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: _p,
+          //   className: "absolute bottom-6 right-12 w-68 z-20",
+          //   initial: { y: 150, opacity: 0 },
+          //   animate: r ? { y: 0, opacity: 1, scale: [1, 1.06, 1] } : {},
+          //   transition: {
+          //     y: { duration: 1, delay: 0.4 },
+          //     scale: { duration: 3, repeat: 1 / 0 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: zp,
+          //   className: "absolute bottom-0 right-0 w-32 z-20",
+          //   initial: { y: 150, opacity: 0 },
+          //   animate: r ? { y: 0, opacity: 1, scale: [1, 1.08, 1] } : {},
+          //   transition: {
+          //     y: { duration: 1, delay: 0.7 },
+          //     scale: { duration: 3, repeat: 1 / 0 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: mo,
+          //   className: "absolute bottom-0 right-24 w-28 z-40",
+          //   initial: { y: 150, opacity: 0 },
+          //   animate: r ? { y: [0, -6, 0], opacity: 1 } : {},
+          //   transition: {
+          //     y: { duration: 4, repeat: 1 / 0 },
+          //     opacity: { duration: 1, delay: 0.8 },
+          //   },
+          // }),
+          // m.jsx(E.img, {
+          //   src: Op,
+          //   className: "absolute bottom-0 -right-4 w-96 z-30",
+          //   initial: { y: 150, opacity: 0 },
+          //   animate: r ? { y: [0, -6, 0], opacity: 1 } : {},
+          //   transition: {
+          //     y: { duration: 4.5, repeat: 1 / 0 },
+          //     opacity: { duration: 1, delay: 0.9 },
+          //   },
+          // }),
+          // m.jsxs("div", {
+          //   className: "text-center max-w-xs pt-[120px] lg:pt-20",
+          //   children: [
+          //     m.jsx(E.h2, {
+          //       animate: r ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
+          //       transition: { duration: 0.8 },
+          //       className: "text-4xl mb-2 pt-20 ",
+          //       style: { fontFamily: "Great Vibes", color: "#f97316" },
+          //       children: "Bhaat",
+          //     }),
               // m.jsx(E.p, {
               //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
               //   transition: { delay: 0.2 },
@@ -18797,40 +18797,40 @@ function rk() {
               //   children:
               //     "A playful morning of mehendi and cultural festivities",
               // }),
-              m.jsxs(E.div, {
-                animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
-                transition: { delay: 0.3 },
-                className: "space-y-0.5 text-[white] font-['Cormorant']",
-                children: [
-                  m.jsx("p", { className: "text-base", children: "FRI" }),
-                  m.jsxs("p", {
-                    className: "text-base",
-                    children: [
-                      "June",
-                      " ",
-                      m.jsx("span", {
-                        className:
-                          "text-[#775A00] text-xl font-['Great Vibes']",
-                        children: "7",
-                      }),
-                      " ",
-                      "2026",
-                    ],
-                  }),
-                  m.jsx("p", {
-                    className: "text-base",
-                    children: "9:00 PM onwards",
-                  }),
-                  m.jsx("p", {
-                    className: "text-base mb-2 text-[black]",
-                    children: "The Banquet",
-                  }),
-                  m.jsx("p", {
-                    className: "text-base mb-2 text-[black]",
-                    children: "Taj Jai mahal palace, Jaipur",
-                  }),
-                ],
-              }),
+              // m.jsxs(E.div, {
+              //   animate: r ? { y: 0, opacity: 1 } : { y: -40, opacity: 0 },
+              //   transition: { delay: 0.3 },
+              //   className: "space-y-0.5 text-[white] font-['Cormorant']",
+              //   children: [
+              //     m.jsx("p", { className: "text-base", children: "FRI" }),
+              //     m.jsxs("p", {
+              //       className: "text-base",
+              //       children: [
+              //         "June",
+              //         " ",
+              //         m.jsx("span", {
+              //           className:
+              //             "text-[#775A00] text-xl font-['Great Vibes']",
+              //           children: "7",
+              //         }),
+              //         " ",
+              //         "2026",
+              //       ],
+              //     }),
+              //     m.jsx("p", {
+              //       className: "text-base",
+              //       children: "9:00 PM onwards",
+              //     }),
+              //     m.jsx("p", {
+              //       className: "text-base mb-2 text-[black]",
+              //       children: "The Banquet",
+              //     }),
+              //     m.jsx("p", {
+              //       className: "text-base mb-2 text-[black]",
+              //       children: "Taj Jai mahal palace, Jaipur",
+              //     }),
+              //   ],
+              // }),
               // m.jsx("p", {
               //   className: "text-base text-[white] font-['Cormorant']",
               //   children: "Dress code",
@@ -18849,7 +18849,7 @@ function rk() {
       m.jsxs("section", {
         ref: s,
         className:
-          "md:hidden min-h-dvh w-full relative overflow-hidden flex justify-center",
+          "min-h-dvh w-full relative overflow-hidden flex justify-center",
         style: {
           backgroundImage: `url(${J2})`,
           backgroundSize: "cover",
@@ -19015,6 +19015,11 @@ function rk() {
                   m.jsx("p", {
                     className: "text-base",
                     children: "10:00 AM onwards",
+                  }),
+
+                  m.jsx("p", {
+                    className: "text-base font-semibold mb-2 text-[#f97316]",
+                    children: "The Banquet",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2 text-[#775A00]",
