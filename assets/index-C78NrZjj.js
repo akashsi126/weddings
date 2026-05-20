@@ -17725,7 +17725,7 @@ function M2() {
             transition: { delay: 0.4, duration: 0.8 },
             className: "text-center mt-8",
             children: m.jsxs(E.a, {
-              href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n)}`,
+              href: `https://maps.app.goo.gl/JTmMWy6bnhA9GHUUA`,
               target: "_blank",
               rel: "noopener noreferrer",
               className:
