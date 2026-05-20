@@ -17955,8 +17955,8 @@ const X2 = "/assets/sangeet.jpeg",
   hi = "",
   mo = "",
   Q2 = "",
-  AL2 = "assets/direction_button.png";
-Z2 = "";
+  AL2 = "assets/direction_button.png",
+  Z2 = "";
 function q2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18002,16 +18002,16 @@ function q2() {
               rotate: { duration: 3, repeat: 1 / 0 },
             },
           }),
-          m.jsx(E.img, {
-            src: "",
-            className: "absolute bottom-16 right-0 w-12 z-20",
-            initial: { y: 120, opacity: 0 },
-            animate: a ? { y: 0, opacity: 1, scale: [1, 1.1, 1] } : {},
-            transition: {
-              y: { duration: 1, delay: 0.4 },
-              scale: { duration: 3, repeat: 1 / 0 },
-            },
-          }),
+          // m.jsx(E.img, {
+          //   src: ut,
+          //   className: "absolute bottom-16 right-0 w-12 z-20",
+          //   initial: { y: 120, opacity: 0 },
+          //   animate: a ? { y: 0, opacity: 1, scale: [1, 1.1, 1] } : {},
+          //   transition: {
+          //     y: { duration: 1, delay: 0.4 },
+          //     scale: { duration: 3, repeat: 1 / 0 },
+          //   },
+          // }),
           m.jsx(E.img, {
             src: AL2,
             className: "absolute bottom-18 right-12 w-10 z-20",
