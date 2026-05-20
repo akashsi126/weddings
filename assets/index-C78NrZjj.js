@@ -18074,7 +18074,7 @@ function q2() {
                 style: {
                   fontFamily: "Great Vibes",
                   color: "white",
-                  marginTop: "70px",
+                  marginTop: "50px",
                 },
                 children: "Sufi Mehfil",
               }),
