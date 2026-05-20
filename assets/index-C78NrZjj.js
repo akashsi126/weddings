@@ -17947,7 +17947,7 @@ function D2({ onOpen: n }) {
   });
 }
 
-const X2 = "/assets/sufi_night.png",
+const X2 = "/assets/sangeet.jpeg",
   Y2 = "",
   Ap = "",
   Vp = "",
@@ -18379,12 +18379,12 @@ function F2() {
     ],
   });
 }
-const z2 = "/assets/sangeet.jpeg",
-  Pp = "",
-  ut = "",
-  Ys = "",
-  Fl = "",
-  O2 = "";
+const z2 = "/assets/bg-m-sangeet2-p9cok6hc.jpeg",
+  Pp = "/assets/lightdesign-0oRqoNiC.png",
+  ut = "/assets/disco1-BETnkKjM.png",
+  Ys = "/assets/lamp-B6S3oSZG.png",
+  Fl = "/assets/side_disco-DgWJgi4b.png",
+  O2 = "/assets/bg-d-sangeet2-DD9_-rTR.jpeg";
 function B2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
@@ -18598,7 +18598,7 @@ function B2() {
               m.jsx(E.h2, {
                 animate: a ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 },
                 transition: { duration: 0.8 },
-                className: "text-5xl mb-4 pt-20 ",
+                className: "text-5xl mb-4 pt-32 ",
                 style: { fontFamily: "Great Vibes", color: "white" },
                 children: "Sangeet",
               }),
