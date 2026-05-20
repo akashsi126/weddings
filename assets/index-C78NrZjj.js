@@ -18014,7 +18014,7 @@ function q2() {
           // }),
           m.jsx(E.img, {
             src: AL2,
-            className: "absolute bottom-18 right-12 w-10 z-20",
+            className: "absolute bottom-10 right-12 w-100 z-120",
             initial: { y: 120, opacity: 0 },
             animate: a ? { y: 0, opacity: 1, scale: [1, 1.08, 1] } : {},
             transition: {
