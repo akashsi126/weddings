@@ -19047,15 +19047,15 @@ function rk() {
 }
 
 const U2 = "/assets/main_section-CXAGbi6Z.png",
-  W2 = "/assets/bg-d-wedding2-C3hVFUEz.jpeg",
-  Qs = "/assets/sidemala2-DDLEBbLq.png",
-  Ep = "/assets/sidevase-DkdV7-Qs.png",
-  Np = "/assets/flowervase2-tGMi9Ik3.png",
-  jp = "/assets/flowervase4-KEqgs6bH.png",
+  W2 = "",
+  Qs = "",
+  Ep = "",
+  Np = "",
+  jp = "",
   Mp = "/assets/aag-CUV844_d.png",
-  H2 = "/assets/pond-nvI6UIeI.png",
-  $2 = "/assets/bride-hIgoeUUe.png",
-  G2 = "/assets/groom-D1-A2tXR.png";
+  H2 = "",
+  $2 = "",
+  G2 = "";
 function K2() {
   const { ref: n, isInView: r } = Pt(),
     { ref: s, isInView: a } = Pt();
