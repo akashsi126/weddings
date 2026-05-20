@@ -17279,136 +17279,28 @@ function v2() {
   });
 }
 function x2() {
-  const n = F.useRef(null),
-    r = [
-      {
-        side: "Groom's Family",
-        members: ["Dr. Ritu Dhand", "Dr. Sunil Dhand"],
-      },
-      {
-        side: "Bride's Family",
-        members: ["Dr. Ajay Kushwaha", "Dr. Ajay Solanki"],
-      },
-    ],
-    { scrollYProgress: s } = i2({
-      target: n,
-      offset: ["start 80%", "end 90%"],
-    }),
-    a = (u, d, f) => {
-      const h = u.split(" ");
-      return h.map((y, v) => {
-        const g = d + (v / h.length) * (f - d),
-          x = yi(s, [g, g + 0.05], [0, 1]),
-          S = yi(s, [g, g + 0.05], [20, 0]);
-        return m.jsx(
-          E.span,
-          {
-            style: { opacity: x, y: S },
-            className: "inline-block mr-2",
-            children: y,
-          },
-          v,
-        );
-      });
-    };
-  return m.jsxs("section", {
-    ref: n,
+  const containerRef = F.useRef(null);
+
+  // Replace this link with wherever you want the user to go when they click your image
+  const clickDestinationUrl = "https://google.com";
+
+  return m.jsx("section", {
+    ref: containerRef,
     className:
-      "py-20 px-6 md:px-16 bg-gradient-to-br from-pink-50 via-cream-50 to-amber-50",
-    children: [
-      m.jsx("div", {
+      "py-20 px-6 md:px-16 bg-gradient-to-br from-pink-50 via-cream-50 to-amber-50 flex justify-center items-center",
+    children: m.jsx("div", {
+      className:
+        "w-full max-w-4xl bg-[#d8c2c5] p-4 md:p-8 rounded-2xl shadow-md",
+      children: m.jsx("img", {
+        src: "assets/tanmay_rsvp.png", // This is your image variable
+        alt: "Display Content",
         className:
-          "w-full flex justify-center items-center bg-[#d8c2c5] py-4 md:py-10 px-6 rounded-2xl mb-16",
-        children: m.jsxs("div", {
-          className: "text-center max-w-4xl",
-          children: [
-            m.jsx("h2", {
-              className: "text-3xl md:text-5xl lg:text-6xl mb-6",
-              style: { fontFamily: "Cormorant", color: "#b8962e" },
-              children: a(
-                "Your gracious presence is enthusiastically awaited",
-                0,
-                0.15,
-              ),
-            }),
-            m.jsxs("p", {
-              className: "text-base md:text-xl lg:text-2xl leading-relaxed",
-              style: { fontFamily: "Cormorant", color: "#4b4b3f" },
-              children: [
-                a("Because meeting two soul requires twice the fun", 0.1, 0.25),
-                m.jsx("br", { className: "hidden md:block" }),
-                a("and you!", 0.2, 0.3),
-              ],
-            }),
-          ],
-        }),
+          "w-full h-auto rounded-xl max-h-[600px] object-cover cursor-pointer block hover:opacity-95 transition-opacity duration-200",
+        onClick: () => {
+          window.open(clickDestinationUrl, "_blank", "noopener,noreferrer");
+        },
       }),
-      m.jsxs("div", {
-        className: "max-w-6xl mx-auto",
-        children: [
-          m.jsxs("div", {
-            className: "text-center mb-16",
-            children: [
-              m.jsx("p", {
-                className: "mb-6 uppercase",
-                style: { fontFamily: "Cormorant, serif", fontWeight: 600 },
-                children: a("WITH LOVE", 0.3, 0.4),
-              }),
-              m.jsx("h2", {
-                className: "text-4xl md:text-6xl mb-4",
-                style: { fontFamily: "Great Vibes", color: "#B29431" },
-                children: a("The Families", 0.35, 0.5),
-              }),
-            ],
-          }),
-          m.jsx("div", {
-            className: "grid md:grid-cols-2 gap-8",
-            children: r.map((u, d) =>
-              m.jsxs(
-                E.div,
-                {
-                  style: {
-                    x: yi(s, [0.5, 0.7], [d === 0 ? -100 : 100, 0]),
-                    opacity: yi(s, [0.5, 0.7], [0, 1]),
-                  },
-                  className:
-                    "bg-[#F5EFDE] rounded-2xl p-8 shadow-lg border border-pink-100",
-                  children: [
-                    m.jsx("h3", {
-                      className: "text-3xl mb-6 text-center",
-                      style: {
-                        fontFamily: "Playfair Display, serif",
-                        fontWeight: 600,
-                        color: "#ec4899",
-                      },
-                      children: a(u.side, 0.55, 0.7),
-                    }),
-                    m.jsx("div", {
-                      className: "space-y-4",
-                      children: m.jsx("div", {
-                        className: "pt-4 border-t border-pink-200 space-y-2",
-                        children: u.members.map((f, h) =>
-                          m.jsx(
-                            "p",
-                            {
-                              className: "text-lg text-gray-700 text-center",
-                              style: { fontFamily: "Cormorant, serif" },
-                              children: a(f, 0.6 + h * 0.05, 0.8 + h * 0.05),
-                            },
-                            h,
-                          ),
-                        ),
-                      }),
-                    }),
-                  ],
-                },
-                d,
-              ),
-            ),
-          }),
-        ],
-      }),
-    ],
+    }),
   });
 }
 /**
