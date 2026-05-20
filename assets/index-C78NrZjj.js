@@ -19348,8 +19348,31 @@ function K2() {
                     ],
                   }),
                   m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Baraat Procession",
+                  }),
+                  m.jsx("p", {
                     className: "text-base",
-                    children: "06:00 PM onwards",
+                    children: "07:00 PM onwards",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Jaimala",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base",
+                    children: "09:00 PM onwards",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base font-bold",
+                    style: { color: "#f97316", fontWeight: "800" },
+                    children: "Pheras",
+                  }),
+                  m.jsx("p", {
+                    className: "text-base",
+                    children: "Midnight",
                   }),
                   m.jsx("p", {
                     className: "text-base mb-2",
